@@ -8,10 +8,6 @@ html, body {
   background-color: #111;
 }
 
-* {
-  overflow: hidden;
-}
-
 p {
   margin-bottom: 0;
 }
