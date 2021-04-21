@@ -52,3 +52,38 @@ label,input,.input {
   padding-right: 55px;
 }
 
+
+
+
+/* BRAKPOINTS */
+
+
+/* BREAKPOINTS */
+
+
+@media (max-height: 640px) { }
+
+@media (min-width: 576px) {  }
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) {
+  .title__primary {
+    margin-top: 5%;
+    margin-bottom: unset;
+    padding-left: unset;
+    text-align: center;
+  }
+  .title-reg {
+    width: unset;
+  }
+  .register__offer {
+    margin-top: unset;
+  }
+ }
+
+
+@media (min-width: 1400px) {  }

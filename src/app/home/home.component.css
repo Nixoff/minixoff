@@ -88,7 +88,6 @@ color: #111;
 
 
 
-
 /* BREAKPOINTS */
 
 
@@ -117,6 +116,11 @@ color: #111;
  }
 
 @media (min-width: 1200px) {
+
+  * {
+    overflow: hidden !important;
+  }
+
   .astro {
     display: block;
     right: -52%;
