@@ -89,7 +89,17 @@ color: #111;
 
 
 /* BREAKPOINTS */
-
+@media (max-width:320px) {
+  .img-fluid {
+    max-width: 90%;
+  }
+  .btn-light, .btn-secondary {
+    font-size: 14px;
+  }
+  .btn-light {
+    left: 20px;
+  }
+}
 
 @media (max-height: 640px) {
   .btn-light, .btn-secondary {
@@ -172,6 +182,12 @@ color: #111;
   }
   .vctem{
     color: #FFD912;
+  }
+  .texto {
+    margin-bottom: 10% !important;
+  }
+  .titulo {
+    margin-bottom: 5% !important;
   }
 }
 
