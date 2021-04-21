@@ -1,0 +1,10 @@
+.titulo{
+  color: #f8f8f8;
+}
+.__url{
+  color: #FFD912;
+}
+
+.form-control:focus {
+  color: #000000 !important;
+}
