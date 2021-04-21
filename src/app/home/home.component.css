@@ -92,7 +92,14 @@ color: #111;
 /* BREAKPOINTS */
 
 
-
+@media (max-height: 640px) {
+  .btn-light, .btn-secondary {
+    height: 30px !important;
+  }
+  .buttons__registraion {
+    margin-top: -60px !important;
+  }
+ }
 
 @media (min-width: 576px) {  }
 
