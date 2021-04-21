@@ -1,3 +1,4 @@
+import { ShortnerComponent } from './shortner/shortner.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { HomeComponent } from './home/home.component';
@@ -8,7 +9,8 @@ const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'signup', component: SignupComponent },
-  { path:'login', component: LoginComponent }
+  { path: 'login', component: LoginComponent },
+  { path: 'shortner', component: ShortnerComponent}
 ];
 
 @NgModule({
