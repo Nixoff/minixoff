@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  background-image: url("./assets/imgs/rectangle.png");
+  background-color: #111;
+}
+
+* {
+  overflow: hidden;
+}
+
+p {
+  margin-bottom: 0;
+}

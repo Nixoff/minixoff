@@ -1,0 +1,59 @@
+* {
+  color: #F8F8F8;
+}
+
+form {
+  padding: 10px;
+  width: 355px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.title__primary{
+  margin-top: 30%;
+  margin-bottom: 10%;
+  padding-left: 50px;
+}
+
+.input {
+  background: #1E1C24 !important;
+  border: 0.1px solid rgb(182 182 182 / 36%) !important;
+}
+
+label,input,.input {
+  padding: 10px 30px;
+}
+
+.pass__icon {
+  position: relative;
+}
+
+input,.input:active{
+  color: white;
+}
+
+input,.input:active{
+
+}
+
+
+.login-btn {
+  background: white;
+  color: black;
+  width: 335px;
+  border-radius: 14px;
+  margin-top: 20px;
+}
+
+.register__offer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30%;
+}
+
+.register__offer > a{
+  align-self: flex-end;
+  padding-right: 55px;
+}
+

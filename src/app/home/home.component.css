@@ -1,0 +1,168 @@
+* {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+
+p {
+  z-index: 1;
+}
+.yellow__wall {
+  width: 100vh;
+  height: 100vh;
+  position: absolute;
+  background: #FFD912;
+  top: 0px;
+  right: 50%;
+}
+
+.astro {
+  margin-top: 10%;
+}
+
+.title__body{
+text-align: center;
+color: #111;
+}
+
+.title__body-span {
+  color: #FFD912 !important;
+}
+
+.title__body-span_left {
+  margin-left: -2px;
+  padding-right: 10px;
+}
+
+.wrapper {
+  text-align: end;
+  margin-top: 2%;
+  margin-bottom: 20%;
+}
+
+.wrapper > p {
+  font-family: 'Roboto', sans-serif !important;
+  background: rgba(0,0,0,0.3);
+  width: 100vw;
+  padding: 14px 15px 0 0;
+}
+
+.btn {
+  width: 157.89px;
+  height: 44px;
+  border-radius: 15px;
+  border: none;
+  font-family: 'Roboto';
+  font-weight: bolder;
+}
+.btn:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.btn:active{
+  transform: scale(.96)
+}
+.btn-light {
+  color: #111;
+  position: absolute;
+  width: 165.79px;
+  height: 44px;
+  left: 45px;
+  z-index: 1;
+}
+
+.btn-secondary {
+  left: 73.11px;
+  background-color: #3B3A42;
+}
+
+.buttons__registraion {
+  text-align-last: center;
+  margin-top: -15%;
+}
+
+
+
+
+
+
+
+
+/* BREAKPOINTS */
+
+
+
+
+@media (min-width: 576px) {  }
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {
+  .wrapper-desk {
+    display: block !important;
+    position: absolute;
+    margin-top: 10%;
+    width: 715px;
+    padding-left: 50px;
+  }
+ }
+
+@media (min-width: 1200px) {
+  .astro {
+    display: block;
+    right: -52%;
+    margin-top: 20px;
+    width: 853px;
+}
+.hero.mobi {
+  display: none;
+}
+.hero.desk {
+  display: block !important;
+  padding-left: 50px;
+}
+.yellow__wall {
+  width: 130%;
+  height: 100vh;
+  position: absolute;
+  background: #FFD912;
+  top: 0px;
+  left: 6%;
+  border-top-left-radius: 92%;
+  transform: rotateY(
+63deg
+);
+}
+
+  .wrapper {
+    display: none;
+  }
+
+  .buttons__registraion{
+    display: none;
+  }
+  .buttons__registraion-desk > .btn-light {
+    left: 0;
+  }
+
+  .buttons__registraion-desk > .btn-secondary {
+    left: unset;
+    right: -130px;
+  }
+
+  .wrapper-desk > h1 {
+    font-size: 62px !important;
+  }
+  .span__wrapper-desk {
+    color: #FFD912;
+    text-decoration: underline;
+  }
+  .vctem{
+    color: #FFD912;
+  }
+}
+
+
+@media (min-width: 1400px) {  }

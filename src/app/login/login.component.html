@@ -1,0 +1,30 @@
+<a [routerLink]="['/home']">
+  <svg width="25" height="25" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin: 50px 0 0 50px;">
+    <path d="M5 9L1 5M1 5L5 1M1 5H13.5V13.5" stroke="#F8F8F8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+</a>
+
+  <div class="title__primary">
+    <h1>Vamos fazer seu login.</h1>
+    <h1>Bem vindo de volta.</h1>
+    <h1>Você fez falta!</h1>
+  </div>
+
+  <form action="#!">
+    <div class="form-group">
+      <label for="email" class="">
+      <input type="email" name="email" id="email" class="form-control input" placeholder="Email address"></label>
+    </div>
+    <div class="form-group mb-4">
+      <label for="password" class="">
+      <input type="password" name="password" id="password" class="form-control input pass__icon" placeholder="***********" ><i class="far fa-eye-slash"></i></label>
+    </div>
+    <div class="register__offer">
+      <p class="">Ainda não é cadastrado no site?</p> <a [routerLink]="['/signup']">Crie uma conta agora!</a>
+
+    <input name="login" id="login" class="btn btn-block login-btn mb-4" type="button" value="Login">
+  </div>
+  </form>
+
+
+
