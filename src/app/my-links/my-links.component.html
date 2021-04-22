@@ -1,0 +1,19 @@
+<table class="table" style="background-color: aliceblue; margin-top: 20%;">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col-">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let i of urls">
+      <th scope="row">
+        {{i.id}}
+      </th>
+      <td>
+        {{i.Url}}
+      </td>
+    </tr>
+
+  </tbody>
+</table>

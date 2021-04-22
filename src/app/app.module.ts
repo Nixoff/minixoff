@@ -1,3 +1,5 @@
+import { HttpClientModule } from '@angular/common/http';
+import { LongUrlService } from './services/long-url.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -8,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { SignupComponent } from './signup/signup.component';
 import { ShortnerComponent } from './shortner/shortner.component';
 import { NavbarComponent } from './core/navbar/navbar.component';
+import { MyLinksComponent } from './my-links/my-links.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +19,15 @@ import { NavbarComponent } from './core/navbar/navbar.component';
     HomeComponent,
     SignupComponent,
     ShortnerComponent,
-    NavbarComponent
+    NavbarComponent,
+    MyLinksComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [LongUrlService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
