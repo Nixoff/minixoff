@@ -18,7 +18,7 @@ p {
 @media (min-width: 1200px) {
 
   * {
-    overflow-x: hidden !important;
+    overflow: hidden ;
   }
 }
 

@@ -1,3 +1,4 @@
+import { LoginService } from './services/login.service';
 import { HttpClientModule } from '@angular/common/http';
 import { LongUrlService } from './services/long-url.service';
 import { NgModule } from '@angular/core';
@@ -27,7 +28,7 @@ import { MyLinksComponent } from './my-links/my-links.component';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [LongUrlService],
+  providers: [LongUrlService, LoginService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

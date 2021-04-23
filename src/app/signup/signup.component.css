@@ -72,7 +72,7 @@ label,input,.input {
 
 @media (min-width: 1200px) {
   .title__primary {
-    margin-top: 5%;
+    margin-top: 0%;
     margin-bottom: unset;
     padding-left: unset;
     text-align: center;
