@@ -10,7 +10,6 @@ import { SignupComponent } from './signup/signup.component';
 import { ShortnerComponent } from './shortner/shortner.component';
 import { NavbarComponent } from './core/navbar/navbar.component';
 import { MyLinksComponent } from './my-links/my-links.component';
-import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,8 +24,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    ReactiveFormsModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
