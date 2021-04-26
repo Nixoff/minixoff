@@ -13,7 +13,7 @@
   </a>
 
   <a href="https://nixoffdev.ga/">
-    <img alt="Feito pelo Gabs <3" src="https://img.shields.io/badge/feito%20por-N1xOff-%237519C1">
+    <img alt="Feito pelo Gabs ❤" src="https://img.shields.io/badge/feito%20por-N1xOff-%237519C1">
   </a>
   
  
@@ -42,14 +42,14 @@
 ♻️ MinixOFFShortner - é um encurtador de url pessoal e personalizado ao gosto do cliente.
 
 
-Projeto desenvolvido durante  **Uma semana** como teste tecnico, oferecida pela [Mobi2Buy](https://mobi2buy.com/).
+Projeto desenvolvido durante  *Uma semana* como teste tecnico, oferecida pela [Mobi2Buy](https://mobi2buy.com/).
 Fazer o teste foi uma experiência incrível. Me virando com muito conteúdo prático, desafios e "dores de cabeça" que me incentivaram ainda mais a resolver.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- [x] Usuários podem se cadastrar na plataforma web enviando **nome completo**, **email**, **usuário** e **senha** e obter acesso as seguintes funcionalidades:
+- [x] Usuários podem se cadastrar na plataforma web enviando *nome completo*, *email*, *usuário* e *senha* e obter acesso as seguintes funcionalidades:
   - [x] Enviar uma url e encurta-la com código aleatorio ou personalizado.
   - [x] Salvar os links completos e encurtados
 
@@ -98,7 +98,6 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 #### 🎲 Rodando o Backend (servidor)
 
-```bash
 
 # Clone este repositório
 $ git clone https://github.com/Nixoff/minixoff-backend.git
@@ -114,12 +113,10 @@ $ npm start
 
 # O servidor inciará na porta:3000 - acesse http://localhost:3000 
 
-```
 
 
 #### 🧭 Rodando a aplicação web (Frontend)
 
-```bash
 
 # Clone este repositório
 $ git clone https://github.com/Nixoff/minixoff.git
@@ -135,7 +132,6 @@ $ npm start
 
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
-```
 
 ---
 
@@ -143,31 +139,35 @@ $ npm start
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Website**  ([Angular](https://angular.io/cli/)  +  [TypeScript](https://www.typescriptlang.org/))
+#### *Website*  ([Angular](https://angular.io/cli/)  +  [TypeScript](https://www.typescriptlang.org/))
 
--   **[Bootstrap](https://getbootstrap.com/)**
--   **[NGX-Bootstrap](https://valor-software.com/ngx-bootstrap/#/)**
+-   *[Bootstrap](https://getbootstrap.com/)*[Bootstrap](https://getbootstrap.com/)**
+-   *[NGX-Bootstrap](https://valor-software.com/ngx-bootstrap/#/)*[NGX-Bootstrap](https://valor-software.com/ngx-bootstrap/#/)**
 
 
-> Veja o arquivo  [package.json](https://github.com/Nixoff/minixoff/blob/main/package.json)
+    Veja o arquivo  [package.json](https://github.com/Nixoff/minixoff/blob/main/package.json)
+
+ja o arquivo  [package.json](https://github.com/Nixoff/minixoff/blob/main/package.json)
 
 #### [](https://github.com/tgmarinho/Ecoleta#server-nodejs--typescript)**Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
 
--   **[Express](https://expressjs.com/)**
--   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
--   **[MongoDB](https://www.mongodb.com/)**
--   **[Mongoose](https://mongoosejs.com/)**
+-   *[Express](https://expressjs.com/)*[Express](https://expressjs.com/)**
+-   *[CORS](https://expressjs.com/en/resources/middleware/cors.html)*[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
+-   *[MongoDB](https://www.mongodb.com/)*[MongoDB](https://www.mongodb.com/)**
+-   *[Mongoose](https://mongoosejs.com/)*[Mongoose](https://mongoosejs.com/)**
 
-> Veja o arquivo  [package.json](https://github.com/Nixoff/minixoff-backend/blob/main/package.json)
+    Veja o arquivo  [package.json](https://github.com/Nixoff/minixoff-backend/blob/main/package.json)
+
+a o arquivo  [package.json](https://github.com/Nixoff/minixoff-backend/blob/main/package.json)
 
 
 #### [](https://github.com/tgmarinho/Ecoleta#utilit%C3%A1rios)**Utilitários**
 
--   Protótipo:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Minix)](https://www.figma.com/file/YTIbp0z72z5ilbgM8BZs09/Prot?node-id=0%3A1)**
--   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)** 
--   Markdown:  **[StackEdit](https://stackedit.io/)**,  **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
--   Commit Conventional:  **[Commitlint](https://github.com/conventional-changelog/commitlint)**
--   Teste de API:  **[Insomnia](https://insomnia.rest/)**
+-   Protótipo:  *[Figma](https://www.figma.com/)*  →  *[Protótipo (Minix)](https://www.figma.com/file/YTIbp0z72z5ilbgM8BZs09/Prot?node-id=0%3A1)*
+-   Editor:  *[Visual Studio Code](https://code.visualstudio.com/)* 
+-   Markdown:  *[StackEdit](https://stackedit.io/)*,  *[Markdown Emoji](https://gist.github.com/rxaviers/7360908)*
+-   Commit Conventional:  *[Commitlint](https://github.com/conventional-changelog/commitlint)*
+-   Teste de API:  *[Insomnia](https://insomnia.rest/)*
 
 
 ---
