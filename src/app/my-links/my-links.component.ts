@@ -1,4 +1,3 @@
-import { LongUrlService } from './../services/long-url.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -10,14 +9,10 @@ export class MyLinksComponent implements OnInit {
 
   urls: Array<any>;
 
-  constructor(private longUrl: LongUrlService) { }
+  constructor() { }
 
-  ngOnInit(): void {
-    this.list();
-  }
+  ngOnInit(): void { }
 
-  list() {
-    this.longUrl.list().subscribe(dados => this.urls = dados);
-  }
+
 
 }
