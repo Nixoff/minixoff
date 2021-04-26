@@ -189,7 +189,7 @@ a o arquivo  [package.json](https://github.com/Nixoff/minixoff-backend/blob/main
  <sub><b>Gabriel Maciel Teixeira</b></sub></a> <a href="https://www.github.com/Nixoff" title="Github">🚀</a>
  <br />
 
-[![Twitter Badge](https://img.shields.io/badge/-@n1x0ff-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/n1x0ff)](https://twitter.com/n1x0ff) [![Linkedin Badge](https://img.shields.io/badge/-Gabriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-nix/)](www.linkedin.com/in/gabriel-nix/) 
+[![Twitter Badge](https://img.shields.io/badge/-@n1x0ff-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/n1x0ff)](https://twitter.com/n1x0ff) [![Linkedin Badge](https://img.shields.io/badge/-Gabriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-nix/)](https://www.linkedin.com/in/gabriel-nix/) 
 [![Gmail Badge](https://img.shields.io/badge/-gabadev48@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gabadev48@gmail.com)](mailto:gabadev48@gmail.com)
 
 ---
