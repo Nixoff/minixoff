@@ -1,18 +1,37 @@
 <app-navbar></app-navbar>
 
 <div class="container">
+  <form class="needs-validation" novalidate [formGroup]="form">
+    <div class="col-auto" style="margin-bottom: 1%">
+      <label for="url" class="form-label"
+        ><h1 class="titulo">
+          Cole a sua <span class="__url">URL</span> para ser encurtada
+        </h1></label
+      >
+      <input
+        class="input-link"
+        type="text"
+        class="form-control"
+        id="url"
+        placeholder="Cole o link aqui"
+        formControlName="url"
+        [ngClass]="{ 'is-invalid': submitted && hasError('url')}"
+      />
+      <div class="invalid-feedback" *ngIf="hasError('url') && hasError('url')['required']">
+        Por favor informe um link para encurtar!
+      </div>
 
-  <form class="row g-3">
-    <div class="col-auto">
-      <h1 class="titulo">Cole a sua <span class="__url">URL</span> para ser encurtada</h1>
+      <div class="invalid-feedback" *ngIf="hasError('url') && hasError('url')['minlength']">
+        Por favor o url precisa ter no mínimo {{ hasError('url')['minlength'].requiredLength }} caracteres para encurtar!
+      </div>
+
+      <div class="invalid-feedback" *ngIf="hasError('url') && hasError('url')['maxlength']">
+        Por favor o url precisa ter no máximo {{ hasError('url')['minlength'].requiredLength }} caracteres!
+      </div>
     </div>
+
     <div class="col-auto">
-      <label for="inputPassword2" class="visually-hidden">URL</label>
-      <input type="text" class="form-control" id="inputPassword2" placeholder="Cole o link aqui">
-    </div>
-    <div class="col-auto">
-      <button type="submit" class="btn btn-light mb-3">Encurtar URL</button>
+      <button type="submit" class="btn btn-light mb-3" (click)="onSubmit()">Encurtar URL</button>
     </div>
   </form>
-
 </div>
